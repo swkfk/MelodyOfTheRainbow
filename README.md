@@ -5,7 +5,7 @@
 ## 代码组织结构
 
 - `RainbowPiano.ino`：程序入口，调度整个流程
-- `ModuleStart.h`：通过宏定义控制各个模块的启动，方便调试，见[后文](#模块便捷式装载)所示
+- `ModuleStart.h`：通过宏定义控制各个模块的启动，方便调试
 - `PinHandler.h` `PinHandler.cpp`：负责处理引脚初始化
 - `TcsHandler.h` `TcsHandler.cpp`：负责处理色彩识别
 - `PianoHandler.h` `PianoHandler.cpp`：负责处理钢琴触摸信号以及指示 LED 及背光 LED 的控制
